@@ -1,0 +1,59 @@
+.weather {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  borde: 3px dashed grey;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  width: max-content;
+  padding: 20px 40px 30px 40px;
+  margin-lef: 25%;
+  background-color: rgba(0,0,0,0.2);
+}
+.topicons img{
+  margin-right: 30px;
+}
+.weather .title {
+  font-size: 3rem;
+  color: rgb(4, 36, 54);
+  font-family: "Times New Roman", Times, serif;
+}
+.weather form {
+  margin-top: 30px;
+}
+.weather form input {
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-botto: 2px dashed rgb(2, 57, 88);
+  margin-righ: 10px;
+  border-radius: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+.weather form input:focus {
+  outline: none;
+  border-botto: 3px dashed rgb(2, 57, 88);
+  text-alig: left;
+}
+
+.weather .getweather {
+  margin-lef: 10px;
+  padding: 8px 35px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 20px;
+  border: 2px solid black;
+  background: rgb(2, 57, 88, 0.8);
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.weather .getweather:hover {
+  background: transparent;
+  color: black;
+}
+
+.weather .getweather:focus {
+  outline: none;
+}
