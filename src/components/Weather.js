@@ -4,6 +4,9 @@ import "./weather.css";
 var cloud = require("../cloudy.png");
 var sun = require("../sun.png");
 var rain = require("../rainy-day.png");
+
+// set initial sample displayed to false
+var accra_displayed=false;
 function Weather() {
   const [weather, setWeather] = useState([]);
   const [form, setForm] = useState({
@@ -17,8 +20,6 @@ function Weather() {
   //This APIKEY may not be useful after sometimee.
   // If not working, get a copy for free at https://weatherapi.com
   const APIKEY = "ae8799cf19e64191943134949220605";
-  
-  var accra_displayed=false;
 
   // displays the sample weather data for Accra whenever page loads
   function displayAccraOnload(){
@@ -78,7 +79,7 @@ function Weather() {
         </div>
       </form>
       
-      {weather.data != undefined ? (
+      {weather.data !== undefined ? (
         <div>
           <DisplayWeather data={weather.data} />
         </div>
