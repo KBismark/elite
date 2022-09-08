@@ -5,9 +5,171 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.moving-heart-right{
+  animation-duration: 5s;
+  animation-name: heart-to-right;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: red;
+}
+.moving-heart-left{
+  animation-duration: 5s;
+  animation-name: heart-to-left;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: red;
+}
+.heart-beats{
+  animation-duration: 1.5s;
+  animation-name: heart-beat;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes heart-to-right {
+  0% {
+    transform: scale(1.5) rotate(-0.05turn);
+
+  }
+  
+  100% {
+    transform: scale(1.5) rotate(.1turn) translateX(-5px) /*translateY(-20px)*/;
+    
+  }
+}
+@keyframes heart-to-left {
+  0% {
+    transform: scale(1.5) ;
+
+  }
+  100% {
+    transform: scale(1.5) rotate(-0.23turn) translateX(8px) translateY(-20px);
+    
+  }
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.flex{
+  display: flex;
+}
+.space-bt{
+  justify-content: space-between;
+}
+.space-ar{
+  justify-content: space-around;
+}
+.space-ev{
+  justify-content: space-evenly;
+}
+.flex-cn{
+  justify-content: center;
+}
+
+.skeletonspace{
+  background-color: rgba(0,0,0,0.15);
+}
+
+.search-input{
+  width: 300px;
+}
+.small-image-hover{
+  border-bottom: 4px solid rgb(255, 0, 0,0);
+}
+.small-image-hover:hover{
+  border-bottom: 4px solid rgba(255, 0, 0,0.4);
+}
+.red-buttons{
+  background: red;
+  border: 1px solid red;
+  cursor: pointer;
+  color: #fff;
+}
+.red-buttons:hover{
+  background: rgba(255, 0, 0,0.2);
+  border: 1px solid rgba(255, 0, 0,0.2);
+  color: red;
+}
+.red-buttons-reverse{
+  background: rgba(255, 0, 0,0.2);
+  border: 1px solid rgba(255, 0, 0,0.2);
+  color: red;
+  cursor: pointer;
+}
+.red-buttons-reverse:hover{
+  background: red;
+  border: 1px solid red;
+  color: #fff;
+}
+.v-hidden{
+  visibility: hidden;
+}
+.selected{
+  /*background: ;*/
+}
+.selected:hover{
+  background: rgba(255, 0, 0,0.1);
+}
+.link{
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.link:hover{
+  color: red;
+  font-weight: 600;
+}
+.link:hover>svg{
+  color: red;
+}
+
+.blk-none-at-923{
+  display: block;
+}
+.flx-none-at-923{
+  display: flex;
+}
+.none-blk-at-923{
+  display: none;
+}
+.none-flx-at-923{
+  display: none;
+}
+.vertical-line{
+  padding: 1px 60px;
+  background-color: red;
+}
+
+.product{
+  position: sticky;
+  top: 300px;left: 0;right: 0;
+}
+@media screen and (max-width:923px){
+  .blk-none-at-923{
+    display: none;
+  }
+  .flx-none-at-923{
+    display: none;
+  }
+  .none-blk-at-923{
+    display: block;
+  }
+  .none-flx-at-923{
+    display: flex;
+  }
+}
+@media screen and (max-width:390px){
+  .search-input{
+    width: fit-content;
+  }
 }
