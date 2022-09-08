@@ -5,7 +5,7 @@ A weather app created with react js using a Weather API.
 ## Follow Below Instructions:
 
 #### Use this command in cmd or terminal:
-`git clone  https://github.com/groupbitbybit/weatherapp.git`   
+`git clone  https://github.com/KBismark/elite.git`   
 
 Then do `npm install` to install all neccessary packages.
 
