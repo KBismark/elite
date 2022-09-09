@@ -92,6 +92,10 @@ function Head(){
                         display:"block",
                         borderRadius:5
                         }}
+
+                        onClick={()=>{
+                          window.location.assign(document.getElementById("public_url").href+"register/login.html");
+                        }}
                     >
                         
                         <span
@@ -113,8 +117,13 @@ function Head(){
                       margin:"5px 0px"
                     }} />
                     <div style={{textTransform:"none",fontSize:"80%",marginBottom:5}}>
-                      <BsQuestionCircle style={{marginRight:7,fontSize:"90%"}} />
-                      Do you need help to place an order? <span  style={{color:"red",cursor:"pointer"}}>Contact us</span>
+                      <BsQuestionCircle style={{marginRight:7,fontSize:"90%",display:"none"}} />
+                      Don't have an account yet? <span  style={{color:"red",cursor:"pointer"}}
+                      onClick={()=>{
+                        window.location.assign(document.getElementById("public_url").href+"register/sign_up.html");
+                      }}
+                      >Sign up now</span> and 
+                      start shopping.
                     </div>
                   </SlMenu>
                 </SlDropdown>
