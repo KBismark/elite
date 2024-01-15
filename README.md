@@ -1,6 +1,4 @@
-# React JS Weather App
-
-A weather app created with react js using a Weather API.
+# React JSE-commerce App
 
 ## Follow Below Instructions:
 
