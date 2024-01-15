@@ -1,4 +1,4 @@
-# React JSE-commerce App
+# React JS e-commerce App
 
 ## Follow Below Instructions:
 
