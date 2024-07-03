@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d65b6c4.css",
+    "main.js": "/static/js/main.21472326.js",
+    "static/media/men-flipped.png": "/static/media/men-flipped.d78cfe25cca26bca382c.png",
+    "static/media/E51.png": "/static/media/E51.0e9eeace175e9bfdefcd.png",
+    "static/media/kids-flipped.png": "/static/media/kids-flipped.eaf2d669c393bb1bc5c1.png",
+    "static/media/E21.png": "/static/media/E21.6d3314f75a4601a21a8d.png",
+    "static/media/test-image.webp": "/static/media/test-image.59aa80f3cc99c73aabbf.webp",
+    "static/media/sample_shoe2.png": "/static/media/sample_shoe2.15beaeb7756459255c94.png",
+    "static/media/E61.png": "/static/media/E61.986f2882baf5dc78ca96.png",
+    "static/media/laidies_shoes-flipped.png": "/static/media/laidies_shoes-flipped.9304097aba0ce8b083a5.png",
+    "static/media/nike.png": "/static/media/nike.089f7910067787d70487.png",
+    "static/media/addidas.png": "/static/media/addidas.e1d98ff27f92858b9b04.png",
+    "static/media/vans.png": "/static/media/vans.590cfc1849909bb602a0.png",
+    "static/media/p1.4.webp": "/static/media/p1.4.39e914eaf14841d8f46a.webp",
+    "static/media/shoelogo.png": "/static/media/shoelogo.884d91070ce10af3bd81.png",
+    "static/media/converse.png": "/static/media/converse.bed63336f87a4ed2f165.png",
+    "static/media/puma.png": "/static/media/puma.c3e771efefd696acf1f1.png",
+    "static/media/birk.png": "/static/media/birk.6e9fb2ed14d4552fc73e.png",
+    "static/media/p2.1.webp": "/static/media/p2.1.359f542fafdce1f9c16d.webp",
+    "static/media/p3.2.webp": "/static/media/p3.2.65f668cee4758beb5357.webp",
+    "index.html": "/index.html",
+    "main.7d65b6c4.css.map": "/static/css/main.7d65b6c4.css.map",
+    "main.21472326.js.map": "/static/js/main.21472326.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d65b6c4.css",
+    "static/js/main.21472326.js"
+  ]
+}
